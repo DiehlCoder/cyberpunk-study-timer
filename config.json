@@ -1,0 +1,102 @@
+{
+  "alarm_sound_path": "assets/sounds/bell.wav",
+  "alarm_volume": 50,
+  "auto_start_next": false,
+  "desktop_notifications": true,
+  "minimize_to_tray": false,
+  "active_preset": "Pomodoro Classic (25 / 5)",
+  "presets": {
+    "Deep Focus (60 / 5)": [
+      {
+        "name": "Deep Work 1",
+        "type": "focus",
+        "duration_minutes": 60
+      },
+      {
+        "name": "Quick Pause",
+        "type": "break",
+        "duration_minutes": 10
+      },
+      {
+        "name": "Deep Work 2",
+        "type": "focus",
+        "duration_minutes": 60
+      },
+      {
+        "name": "Recovery Break",
+        "type": "break",
+        "duration_minutes": 15
+      }
+    ],
+    "Pomodoro Classic (25 / 5)": [
+      {
+        "name": "Focus Session 1",
+        "type": "focus",
+        "duration_minutes": 25
+      },
+      {
+        "name": "Short Break 1",
+        "type": "break",
+        "duration_minutes": 5
+      },
+      {
+        "name": "Focus Session 2",
+        "type": "focus",
+        "duration_minutes": 25
+      },
+      {
+        "name": "Short Break 2",
+        "type": "break",
+        "duration_minutes": 5
+      },
+      {
+        "name": "Focus Session 3",
+        "type": "focus",
+        "duration_minutes": 25
+      },
+      {
+        "name": "Short Break 3",
+        "type": "break",
+        "duration_minutes": 5
+      },
+      {
+        "name": "Focus Session 4",
+        "type": "focus",
+        "duration_minutes": 25
+      },
+      {
+        "name": "Long Break",
+        "type": "break",
+        "duration_minutes": 20
+      }
+    ],
+    "Custom Sequence": [
+      {
+        "name": "Learning Block",
+        "type": "focus",
+        "duration_minutes": 40
+      },
+      {
+        "name": "Coffee Break",
+        "type": "break",
+        "duration_minutes": 10
+      },
+      {
+        "name": "Sprint",
+        "type": "focus",
+        "duration_minutes": 60
+      },
+      {
+        "name": "Rest",
+        "type": "break",
+        "duration_minutes": 5
+      }
+    ]
+  },
+  "stats": {
+    "last_date": "2026-10-05",
+    "today_focus_seconds": 0,
+    "today_completed_sessions": 0,
+    "total_focus_seconds": 0
+  }
+}
